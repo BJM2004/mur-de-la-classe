@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
 :root {
-  --green: #087a4b;
+  --green: #18c17a;
   --green-dark: #064b34;
-  --yellow: #f4c542;
+  --yellow: #ca9c1d;
   --red: #c83b3b;
   --ink: #17251f;
   --muted: #718078;
@@ -14,7 +14,7 @@ html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif; }
 .hero {
   min-height: 440px; position: relative; overflow: hidden; color: white;
-  background: linear-gradient(120deg, rgba(4,48,34,.97), rgba(7,119,72,.88)),
+  background: linear-gradient(125deg, rgba(4,48,34,.97), rgba(7,119,72,.88)),
               radial-gradient(circle at 80% 20%, #f4c542, transparent 35%);
   padding: 24px max(6vw, 24px) 76px;
 }
@@ -27,7 +27,7 @@ h1 { font-family:'Playfair Display',serif; font-size:clamp(3rem,7vw,5.7rem); lin
 h1 span { color:var(--yellow); }
 .intro { color:rgba(255,255,255,.82); font-size:1.08rem; max-width:540px; line-height:1.7; }
 .discover { display:inline-flex; gap:20px; align-items:center; margin-top:20px; padding:13px 19px; border-radius:40px; background:var(--yellow); color:#253326; text-decoration:none; font-weight:700; transition:transform .2s; }
-.discover:hover { transform:translateY(-3px); }
+.discover:hover { transform:translateY(-4px); }
 .hero-orb { position:absolute; border:1px solid rgba(255,255,255,.14); border-radius:50%; pointer-events:none; }
 .orb-one { width:390px; height:390px; right:8%; top:45px; box-shadow:0 0 0 45px rgba(255,255,255,.035), 0 0 0 90px rgba(255,255,255,.025); }
 .orb-two { width:170px; height:170px; right:19%; top:155px; background:rgba(244,197,66,.09); }
@@ -37,7 +37,7 @@ h1 span { color:var(--yellow); }
 h2 { font:600 clamp(2rem,4vw,3rem)/1.15 'Playfair Display',serif; margin:8px 0 0; }
 h2 em { color:var(--green); }
 .section-copy { max-width:300px; color:var(--muted); line-height:1.6; margin:0 0 4px; }
-.toolbar { display:flex; gap:14px; }
+.toolbar { display:flex; gap:15px; }
 .search-box, .filter-wrap { background:white; border:1px solid #e2e9e3; border-radius:12px; min-height:54px; display:flex; align-items:center; }
 .search-box { flex:1; padding:0 16px; gap:10px; }
 .search-box span { font-size:1.6rem; color:var(--green); }
@@ -52,7 +52,7 @@ h2 em { color:var(--green); }
   position:relative; overflow:hidden; min-height:145px; padding:22px;
   background:white; border:1px solid #e8eee9; border-radius:16px;
   box-shadow:0 5px 18px rgba(20,50,35,.035);
-  animation:rise .55s both; transition:transform .25s, box-shadow .25s;
+  animation:rise .30s both; transition:transform .26s, box-shadow .25s;
 }
 .city-card:hover { transform:translateY(-6px); box-shadow:0 15px 30px rgba(20,50,35,.1); }
 .city-card::after { content:''; position:absolute; width:90px; height:90px; border-radius:50%; right:-35px; bottom:-45px; background:var(--tint,#e4f3e9); }
